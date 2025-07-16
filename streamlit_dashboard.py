@@ -50,7 +50,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 @st.cache_data
-def load_data(file_path="C:\\Users\\ur14068\\Downloads\\分析\\分析\\銘宣爬蟲合併_0421_0708.xlsx"):
+# def load_data(file_path="C:\\Users\\ur14068\\Downloads\\分析\\分析\\銘宣爬蟲合併_0421_0708.xlsx"):
+def load_data(file_path="銘宣爬蟲合併_0421_0708.xlsx"):
     """載入並處理資料"""
     try:
         df = pd.read_excel(file_path)
